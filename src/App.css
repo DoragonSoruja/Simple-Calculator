@@ -21,3 +21,8 @@ button:nth-last-child(1) {
   background: tomato;
   color: white;
 }
+
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
