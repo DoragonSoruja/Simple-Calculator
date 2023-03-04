@@ -31,6 +31,7 @@ function App() {
  
   function resetInput(e) { 
     e.preventDefault();
+    inputRef.current.value = "";
   }; 
  
   function resetResult(e) { 
@@ -48,7 +49,7 @@ function App() {
           {result} 
         </p> 
         <input
-          pattern="[0-9]" 
+          pattern="[0-9]"
           ref={inputRef} 
           type="number" 
           placeholder="Type a number" 
